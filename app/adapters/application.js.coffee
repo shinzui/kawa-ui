@@ -1,5 +1,5 @@
 ApplicationAdapter = DS.ActiveModelAdapter.extend
   namespace: 'api'
-  host: 'http://kawa.dev'
+  host: window.ENV.api_host
 
 `export default ApplicationAdapter`

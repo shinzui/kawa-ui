@@ -11,7 +11,7 @@ function isolatedContainer(fullNames) {
   var resolver = Resolver['default'].create();
 
   resolver.namespace = {
-    modulePrefix: 'appkit'
+    modulePrefix: 'kawa'
   };
 
   for (var i = fullNames.length; i > 0; i--) {

@@ -1,5 +1,5 @@
-import Application from 'appkit/app';
-import Router from 'appkit/router';
+import Application from 'kawa/app';
+import Router from 'kawa/router';
 
 function startApp(attrs) {
   var App;

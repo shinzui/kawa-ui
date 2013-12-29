@@ -1,4 +1,4 @@
-import Index from 'appkit/routes/index';
+import Index from 'kawa/routes/index';
 
 var route;
 module("Unit - IndexRoute", {
